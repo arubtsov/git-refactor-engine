@@ -1,0 +1,15 @@
+type Repository {
+    id:         String
+    name:       String
+    url:        String
+    user:       String
+    commitsUrl: String
+    stars:      Number
+    files:      [File]
+}
+
+type File {
+  name:  String
+  url:   String
+  size:  Number
+}
